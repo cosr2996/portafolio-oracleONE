@@ -1,0 +1,43 @@
+.skills {
+  padding: 16px;
+}
+.skills__title {
+  text-align: center;
+  font-size: 22px;
+}
+
+.skills__box ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.skills__line {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__img {
+  text-align: center;
+}
+.skills__box {
+    width: 50%;
+}
+
+.skills__name{
+    text-align: center;
+}
+
+/*? RESPONSIVE */
+
+@media (min-width:768px) {
+  .skills__box {
+    width:33%;
+}
+}
+@media (min-width:992px) {
+  .skills__box {
+    width:10%;
+}
+.skills__line {
+  justify-content: space-around;
+}
+}

@@ -1,0 +1,53 @@
+.formacion{
+    background-color: #eaf2fd;
+    padding-top: 1rem;
+}
+
+
+.titulo{
+    text-align: center;
+    
+}
+.formacion__tarjeta__imagen{
+    width: 80%;
+    display: flex;
+    height: 118px;
+    margin: 0px auto;
+    background-color: white;
+    align-items: center;
+    
+}
+
+.formacion__tarjeta__imagen img{
+    height: 58px;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+.formacion__tarjeta__titulo{
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+    margin-left: 10%;
+}
+.formacion__tarjeta__descripcion{
+    font-size: 14px;
+    margin-left: 10%;
+    color: #464646;
+}
+
+
+/*? RESPONSIVE */
+
+@media (min-width:768px) {
+    .formacion__box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .formacion__tarjeta{
+        width: 33%;
+    }
+  }

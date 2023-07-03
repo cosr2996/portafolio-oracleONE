@@ -1,0 +1,10 @@
+.sobre-mi {
+  background-color: #eaf2fd;
+  padding: 1rem;
+}
+
+.sobre-mi__titulo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #464646;
+}
