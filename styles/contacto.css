@@ -1,3 +1,15 @@
+:root {
+    
+  
+    --contrast-light-color: #fff;
+    --warning-color: #df2525;
+    --success-color: #047900;
+    --transparency-color: #4d4d4d33;
+  
+    --shadow: 0 5px 10px #55a6ff38;
+  }
+
+
 .formcontato__img{
     display: none;
 }
@@ -50,12 +62,37 @@ textarea{
     padding: 0.7rem;
     border: none;
     cursor: pointer;
+    
 }
 
-.error{
-    border: 2px solid red;
-    color: red;
+.disabled{
+    
+    background-color: #464646;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+   
+    
 }
+
+.input-message-error {
+    display: none;
+  }
+  .input-container--invalid .input-message-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }  
+
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+  }
 
 /*? RESPONSIVE */
 
